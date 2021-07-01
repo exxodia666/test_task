@@ -8,10 +8,7 @@ const Screen_2 = () => {
       <Text style={{fontFamily: 'Assistant-SemiBold', fontSize: 34}}>
         !אז הגיע הלילה של כוכב
       </Text>
-      <Image
-        style={{borderWidth: 1}}
-        source={require('../assets/imageOnboarding2.png')}
-      />
+      <Image source={require('../assets/imageOnboarding2.png')} />
       <Text
         style={{
           width: '80%',
